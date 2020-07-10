@@ -49,3 +49,7 @@ nyc_lat = [a, b]
 nyc_long = [c, d]
 vaes_df[(vaex_df.latitude > nyc_lat[0]) && /*other conditions*/]
 ```
+
+## References
+
+https://towardsdatascience.com/vaex-out-of-core-dataframes-for-python-and-fast-visualization-12c102db044a
