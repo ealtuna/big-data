@@ -34,3 +34,17 @@ rm $file_locs
 echo 'Process Complete: Deleting .txt file and .fits intermediary file'
 echo 'HDF5 saved to: $hdf5_out'
 ```
+
+
+```
+import pandas as pd
+import vaex
+
+pandas_df = pd.read_csv("/path/to/file")
+vaex_df = vaex.open("/path/to/hdf5")
+
+// select in NYC
+nyc_lat = [a, b]
+nyc_long = [c, d]
+vaes_df[(vaex_df.latitude > nyc_lat[0]) && /*other conditions*/]
+```
