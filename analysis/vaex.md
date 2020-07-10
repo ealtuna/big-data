@@ -1,4 +1,4 @@
-Using Topcat and Vaex to pre-process the CSV dataset.
+Using Topcat and Vaex to pre-process the CSV dataset (with Vaex you get the chance to load big data files for analysis, and in general you get execution times 10X plus faster than Pandas).
 
 
 ```
