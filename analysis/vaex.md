@@ -35,6 +35,7 @@ echo 'Process Complete: Deleting .txt file and .fits intermediary file'
 echo 'HDF5 saved to: $hdf5_out'
 ```
 
+Operations over datasets (similar APIs in Pandas and Vaex)
 
 ```
 import pandas as pd
